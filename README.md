@@ -1,16 +1,76 @@
-# ai_personal_assistant
+# 🧠 AI-Personal--Assistant 🤖
 
-A new Flutter project.
+> Your voice-enabled, GPT-powered personal assistant — in your pocket, on any platform.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🗣️ **Voice Input** (via Whisper or native STT)
+- 💬 **GPT-4 Agent(s)** — with memory + personas
+- 🔊 **TTS Output** using Google, Polly, or offline engines
+- 🎨 **Themes, Prompts, Multi-agent Support**
+- 💾 **Session Memory** via Drift (SQLite)
+- 🌐 **Flutter Web Companion** (JS interop for STT/TTS)
+- 📦 **Embeddings & Vector DB** (for semantic memory)
+- 🔧 **Platform Channels** (for native voice, calendar APIs)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Folder Structure
+
+```bash
+lib/src/
+├── agents/            # GPT, local, on-device agents
+├── api/               # OpenAI, Whisper, TTS clients
+├── data/              # Drift DB, models, vector DB
+├── features/          # Chat, memory, settings, voice
+├── services/          # App-wide services
+├── utils/             # Native bridges, logger, errors
+├── widgets/           # Chat bubble, voice button, etc.
+🛠️ Tech Stack
+Flutter + Dart
+
+OpenAI GPT-4 / LLM
+
+Whisper STT / TTS APIs
+
+Drift (local DB)
+
+FAISS / Chroma (embeddings)
+
+Figma (for design assets)
+
+CI/CD with GitHub Actions
+
+🚀 Getting Started
+bash
+Copy
+Edit
+git clone https://github.com/MasterCaleb254/AI-Personal--assistant.git
+cd AI-Personal--assistant
+flutter pub get
+flutter run
+🧪 Tests
+bash
+Copy
+Edit
+flutter test
+📦 CI/CD & GitHub Actions (Next Step)
+✅ Auto Linting
+
+✅ Test Runs on PR
+
+✅ Build APK/Web on Push
+
+Coming soon.
+
+📸 UI Previews
+Add screenshots or Loom demo here soon.
+
+🙌 Contributing
+Pull requests are welcome! For major changes, open an issue first.
+
+📄 License
+MIT
+
