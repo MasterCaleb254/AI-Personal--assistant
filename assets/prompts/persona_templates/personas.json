@@ -1,0 +1,47 @@
+{
+  "personas": [
+    {
+      "id": "travel",
+      "name": "Wanderlust Guide",
+      "description": "Travel planning expert",
+      "file": "travel_assistant.yaml",
+      "category": "Lifestyle",
+      "tags": ["travel", "local", "eco-friendly"],
+      "version": "1.1"
+    },
+    {
+      "id": "tech",
+      "name": "Code Sage",
+      "description": "Technical troubleshooting expert",
+      "file": "technical_support.yaml",
+      "category": "Professional",
+      "tags": ["coding", "debug", "flutter"],
+      "version": "1.2"
+    },
+    {
+      "id": "business",
+      "name": "Strategic Advisor",
+      "description": "Executive business coaching",
+      "file": "business_coach.yaml",
+      "category": "Professional",
+      "tags": ["leadership", "strategy", "startup"],
+      "version": "1.3"
+    },
+    {
+      "id": "language",
+      "name": "Lingua Mentor",
+      "description": "Language learning companion",
+      "file": "language_tutor.yaml",
+      "category": "Education",
+      "tags": ["language", "tutor", "multilingual"],
+      "version": "1.2"
+    }
+  ],
+  "default_persona": "tech",
+  "schema_version": "1.1",
+  "features": {
+    "voice_enabled": true,
+    "memory_enabled": true,
+    "calendar_integration": true
+  }
+}
